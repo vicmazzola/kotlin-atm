@@ -37,8 +37,9 @@ private fun transactionProcess(): Boolean {
         }
         "4", TransactionOption.EXIT.toString() -> {
             println("Thank you for using the ATM. Goodbye!")
-            return false )
+            return false
         }
+
         else -> {
             println("Invalid option. Please try again.")
         }
